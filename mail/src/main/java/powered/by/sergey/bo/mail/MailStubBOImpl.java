@@ -23,6 +23,6 @@ package powered.by.sergey.bo.mail;
 public class MailStubBOImpl implements MailBO
 {
 	public void sendHtmlEmail(String from, String to, String subject, String htmlMessage) {
-		System.out.println("From" + from + " To:" + to + " Subject: " + subject + " Message: " + htmlMessage);
+		System.out.println("From:" + from + " To:" + to + " Subject: " + subject + " Message: " + htmlMessage);
 	}
 }
